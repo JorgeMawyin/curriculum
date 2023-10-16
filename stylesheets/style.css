@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Karma:wght@300&family=Miriam+Libre&display=swap');
+
+* {
+    font-family: 'Kanit', 'Miriam Libre', 'Karma';
+    background-color: #eff0f3;
+    color: #2a2a2a;
+}
+
+h1{
+    color: #0d0d0d;
+}
+
+section {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    color: #2a2a2a;
+}
+
+
