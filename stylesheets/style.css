@@ -1,21 +1,256 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Karma:wght@300&family=Miriam+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;600&family=Karma:wght@300&family=Miriam+Libre&display=swap');
 
 * {
     font-family: 'Kanit', 'Miriam Libre', 'Karma';
-    background-color: #eff0f3;
-    color: #2a2a2a;
 }
 
-h1{
-    color: #0d0d0d;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.left {
+    flex-grow: 1;
+    background-color: #171717;
+    height: auto;
+    width: 70%;
+    display: flex;
+}
+
+.right {
+    background-color: #0F0F0F;
+    height: auto;
+    width: 30%;
+}
+
+.contact {
+    width: 35%;
+}
+
+.contact h1 {
+    font-size: 35px;
+    margin-top: 8%;
+    text-align: center;
+    color: #fffffe;
+}
+
+.aboutMeFirst {
+    margin-top: 10%;
+    margin-left: 27%;
+}
+
+.aboutMe {
+    margin-left: 27%;
+}
+
+.aboutMeFirst p {
+    color: #fffffe;
+    font-size: 18px;
+}
+
+.aboutMe p {
+    color: #fffffe;
+    font-size: 18px;
+}
+
+.topics {
+    width: 65%;
+    margin-top: 5%;
+    /*background-color: #2a2a2a;*/
+}
+
+.profilePicture{
+    width: 250px;
+    height: 250px;
+    background-image: url(img/foto.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.sectionP {
+    margin-left: 5%;
+}
+
+.right h1 {
+    margin-top: 13%;
+    margin-left: 10%;
+    color: #fffffe;
+    margin-bottom: 8%;
+}
+
+.container .left .contact hr {
+    width: 50%
 }
 
 section {
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-    color: #2a2a2a;
+    color: #fffffe;
 }
 
+section h1 {
+    font-size: 30px;
+    margin-top: 8%;
+    margin-left: 10%;
+    color: #fffffe;
+}
 
+section h2 {
+    font-size: 30px;
+}
+
+section p {
+    font-size: 18px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+section span {
+    font-size: 18px;
+}
+
+.container .right .imgHabilities {
+    margin-left: 10%;
+}
+
+.container .right h3{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.containerImage {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.id1 {
+    border-radius: 10%;
+    width: 14rem;
+    height: 0.65rem;
+    background-color: black;
+}
+
+.metaJava {
+    border-radius: 10%;
+    height: 100%;
+    width: 90%;
+    background-color: #3C6884;
+}
+
+.metaPython {
+    border-radius: 10%;
+    height: 100%;
+    width: 75%;
+    background-color: #78E0EA;
+}
+
+.metaHtml {
+    border-radius: 10%;
+    height: 100%;
+    width: 60%;
+    background-color: #ff4c1e;
+}
+
+.metaCss {
+    border-radius: 10%;
+    height: 100%;
+    width: 65%;
+    background-color: #0065f4;
+}
+
+.metaSQL {
+    border-radius: 10%;
+    height: 100%;
+    width: 80%;
+    background-color: #4db6ac;
+}
+
+.metaPhoto {
+    border-radius: 10%;
+    height: 100%;
+    width: 95%;
+    background-color: #002732;
+}
+
+.metaIllu {
+    border-radius: 10%;
+    height: 100%;
+    width: 95%;
+    background-color: #994c0f;
+}
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+    height: 260px;
+}
+
+.elemento1 {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    width: 339px;
+    height: 188px;
+    text-align: center;
+}
+.elemento1 img {
+    width: 339px;
+    height: 188px;
+}
+
+.elemento2 {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    width: 339px;
+    height: 188px;
+    text-align: center;
+}
+.elemento2 img {
+    width: 339px;
+    height: 188px;
+}
+
+.elemento3 {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    width: 339px;
+    height: 188px;
+    text-align: center;
+}
+.elemento3 img {
+    width: 339px;
+    height: 188px;
+}
+
+.video {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video {
+    width: 600px;
+    height: 296px;
+}
+
+#proyectos h3 {
+    font-family: 'Miriam Libre', sans-serif;
+    text-align: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

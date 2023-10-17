@@ -1,97 +1,166 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta nmae="viewport" content="width=device-width">
-        <link rel="stylesheet" href="stylesheets/style.css">
-        <title>Currículum Vitae</title>
-    </head>
-    <body>
-        <header>
-            <h1>Currículum Vitae</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Educación</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        <section id="informacion-personal">
-            <h2>Información personal</h2>
-            <p>
-            Nombre: <span>Jorge Daniel Mawyin Cabay</span>
-            </p>
-            <p>
-            Dirección: <span>Sauces 2, Guayaquil</span>
-            </p>
-            <p>
-            Teléfono: <span>+593 99 645 2932</span>
-            </p>
-            <p>
-            Correo electrónico: <span>jmawyin@espol.edu.ec</span>
-            </p>
-        </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-            <img usemap="#eduMap" alt="edu" src="https://placehold.co/600x400/png"></img>
-            <map name ="eduMap">
-                <area shape ="rect" coords = "0,0,600,400" alt="espol" href="https://www.espol.edu.ec/es" target="_blank">
-            </map>
-            <p>
-            Grado: <span>Estudiante</span>
-            </p>
-            <p>
-            Institución: <span>Escuela Superior Politécnica del Litoral</span>
-            </p>
-            <p>
-            Fechas: <span>2021 - Presente</span>
-            </p>
-        </section>
-        <section id="experiencia">
-            <h2>Experiencia</h2>
-            <img src="https://placehold.co/600x400/png"></img>
-            <p>
-            Cargo: <span>Desarrollador de software</span>
-            </p>
-            <p>
-            Empresa: <span>Google</span>
-            </p>
-            <p>
-            Fechas: <span>2023 - Presente</span>
-            </p>
-            <p>
-            Descripción:
-            <ul>
-            <li>Desarrollo de aplicaciones web</li>
-            <li>Trabajo en equipo</li>
-            </ul>
-            </p>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Lenguajes de programación: Python, Java</li>
-                <li>Bases de datos: MySQL, PostgreSQL</li>
-                <li>Herramientas de desarrollo: Visual Studio Code, Git, NeatBeans</li>
-                <li>Otros: Inglés</li>
-            </ul>
-        </section>
-        <section id="contactame">
-            <h2>Contáctame</h2>
-            <form action="">
-                <label for="mail">E-mail:</label>
-                <input type="text" id="mail" name="mail"><br><br>
-                <label for="message">Message:</label>
-                <input type="text" id="message" name="message"><br><br>
-                <input type="submit" value="Enviar">
-              </form>
-        </section>
-        <footer>
-            <p>Copyright © 2023 Jorge Mawyin</p>
-        </footer>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta nmae="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Currículum Vitae</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="contact">
+                <div class="profilePicture"></div>
+                <h1>Jorge Mawyin</h1>
+                <div class="aboutMeFirst">
+                    <p><img src="stylesheets/img/email.png"> &nbsp jmawyin@espol.edu.ec</p>
+                </div>
+                <hr class="lineAM">
+                <div class="aboutMe">
+                    <p><img src="stylesheets/img/telefono-movil.png"> &nbsp +593-99452932</p>
+                </div>
+                <hr class="lineAM">
+                <div class="aboutMe">
+                    <p><img src="stylesheets/img/pasador-de-ubicacion.png"> &nbsp Guayaquil-Ecuador</p>
+                </div>
+            </div>
+            <div class="topics">
+                <div class="sectionP">
+                    <section id="about-me">
+                        <h2>Sobre mi</h2>
+                        <span>
+                            Soy un estudiante de 5to semestre de la carrera de Ciencias de la computación.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae fuga, repellat velit facere nostrum quidem non. Minus delectus modi molestiae error tempore aliquam suscipit ipsa, ipsam temporibus nesciunt exercitationem? Tempora.
+                        </span>
+                        <hr>
+                    </section>
+                    <section id="educacion">
+                        <h2>Educación</h2>
+                        <p>
+                            Grado: <span>Estudiante</span>
+                        </p>
+                        <p>
+                            Institución: <span>Escuela Superior Politécnica del Litoral</span>
+                        </p>
+                        <p>
+                            Fechas: <span>2021 - Presente</span>
+                        </p>
+                        <p>Ubicación:</p>
+                        <div class="mapa">
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0236519346804!2d-79.97046408855103!3d-2.144625997827252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses!2sec!4v1697526680913!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <hr>
+                    </section>
+                    <section id="experiencia">
+                        <h2>Experiencia</h2>
+                        <p>
+                        <ul>
+                            <li>Atención al cliente en un local de fotografía</li>
+                            <li>Pasantías técnicas en mueblerías del bosque</li>
+                            <li>Arreglo de computadoras</li>
+                        </ul>
+                        </p>
+                        <hr>
+                    </section>
+                    <section id="proyectos">
+                        <h2>Proyectos</h2>
+                        <div class="carrusel">
+                            <div class="elemento1"><img src="stylesheets/img/proyectoArbol.png"><h3>Ahorcado</h3></div>
+                            <div class="elemento2"><img src="stylesheets/img/proyectoEmoji.png"><h3>Editor Emoji</h3></div>
+                            <div class="elemento3"><img src="stylesheets/img/proyectoBingo.png"><h3>Bingo</h3></div>
+                        </div>
+                        <h3>Funcionamiento editor de emojis</h3>
+                        <div class="video">
+
+                            <video controls><source src="stylesheets/img/emoji.mp4" type="video/mp4"></video>
+                        </div>
+                        <hr>
+                    </section>
+                    <section id="contactame">
+                        <h2>Contáctame</h2>
+                        <form action="">
+                            <label for="mail">E-mail:</label>
+                            <input type="text" id="mail" name="mail"><br><br>
+                            <label for="message">Message:</label>
+                            <input type="text" id="message" name="message"><br><br>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <section id="habilidades">
+                <h1>Habilidades</h1>
+                <h3 id="text">Java</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/java.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaJava"></div>
+                    </div>
+                </div>
+                <h3 id="text">Python</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/piton.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaPython"></div>
+                    </div>
+                </div>
+                <h3 id="text">HTML</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/html-5.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaHtml"></div>
+                    </div>
+                </div>
+                <h3 id="text">CSS</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/css-3.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaCss"></div>
+                    </div>
+                </div>
+                <h3 id="text">SQL</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/mysql.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaSQL"></div>
+                    </div>
+                </div>
+                <h3 id="text">Adobe Photoshop</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/adobe-photoshop.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaPhoto"></div>
+                    </div>
+                </div>
+                <h3 id="text">Adode Illustrator</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/ilustrador.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaIllu"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
 </html>
