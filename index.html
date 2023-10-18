@@ -3,12 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta nmae="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jorge Daniel Mawyin cabay">
+    <meta name="description" content="Currículum vitae de Jorge Mawyin. Estudiante de Ingeniería en Ciencias de la Computación">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title>Currículum Vitae</title>
 </head>
 
 <body>
+    <header>
+        <div class="headerr">
+            <h1 id="conte">Currículum Vitae</h1>
+        </div>
+        <nav id="navegacion">
+            <ul id="nav" class="nav">
+               <li><a href="#about-me">Sobre mi</a></li>
+                <li><a  href="#educacion">Educación</a></li>
+               <li><a href="#experiencia">Experiencia</a></li>
+               <li><a href="#proyectos">Proyectos</a></li>
+               <li><a href="#contactame">Contáctame</a></li>
+            </ul>
+         </nav>
+    </header>
     <div class="container">
         <div class="left">
             <div class="contact">
@@ -17,11 +33,11 @@
                 <div class="aboutMeFirst">
                     <p><img src="stylesheets/img/email.png"> &nbsp jmawyin@espol.edu.ec</p>
                 </div>
-                <hr class="lineAM">
+                <hr>
                 <div class="aboutMe">
                     <p><img src="stylesheets/img/telefono-movil.png"> &nbsp +593-99452932</p>
                 </div>
-                <hr class="lineAM">
+                <hr>
                 <div class="aboutMe">
                     <p><img src="stylesheets/img/pasador-de-ubicacion.png"> &nbsp Guayaquil-Ecuador</p>
                 </div>
@@ -80,13 +96,16 @@
                     </section>
                     <section id="contactame">
                         <h2>Contáctame</h2>
-                        <form action="">
-                            <label for="mail">E-mail:</label>
-                            <input type="text" id="mail" name="mail"><br><br>
-                            <label for="message">Message:</label>
-                            <input type="text" id="message" name="message"><br><br>
-                            <input type="submit" value="Enviar">
-                        </form>
+                        <div class="formulario">
+                            <form action="#">
+                                <label for="mail">E-mail:</label><br>
+                                <input class="campoTexto" type="text" id="mail" name="mail"><br><br>
+                                <label for="message">Message:</label><br>
+                                <input class="campoTexto" type="text" id="message" name="message"><br><br>
+                                <input class="boton" type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        
                     </section>
                 </div>
             </div>
@@ -158,9 +177,21 @@
                         <div class="metaIllu"></div>
                     </div>
                 </div>
+                <h3 id="text">Adobe After effects</h3>
+                <div class="containerImage">
+                    <div class="imgHabilities">
+                        <img src="stylesheets/img/despues-de-los-efectos.png">
+                    </div>
+                    <div class="id1">
+                        <div class="metaEff"></div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
+    <footer>
+        <span class="copyright">Copyright © 2023 Jorge Mawyin</span>
+    </footer>
 </body>
 
 </html>

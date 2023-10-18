@@ -9,9 +9,22 @@ body {
     padding: 0;
 }
 
+/*HEADER*/
+
+.headerr {
+    margin-top: 4%;
+}
+
+#conte {
+    text-align: center;
+    color: #171717;
+    font-size: 50px;
+}
+
+/*BODY*/
+
 .container {
     display: flex;
-    
 }
 
 .left {
@@ -61,7 +74,6 @@ body {
 .topics {
     width: 65%;
     margin-top: 5%;
-    /*background-color: #2a2a2a;*/
 }
 
 .profilePicture{
@@ -86,7 +98,7 @@ body {
 }
 
 .container .left .contact hr {
-    width: 50%
+    width: 60%
 }
 
 section {
@@ -188,6 +200,13 @@ section span {
     background-color: #994c0f;
 }
 
+.metaEff {
+    border-radius: 10%;
+    height: 100%;
+    width: 60%;
+    background-color: #9999FF;
+}
+
 .carrusel {
     display: flex;
     flex-wrap: nowrap;
@@ -253,4 +272,107 @@ section span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*NAV*/
+
+#navegacion ul, #navegacion li, #navegacion a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#navegacion {
+  font: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #333;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+  
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+ul#nav li a {
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+}
+
+/*FORM*/
+
+form {
+    border: 1px solid white;
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactame {
+    text-align: center;
+}
+
+#message {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: #171717;
+    font-size: 18px;
+    color: white;
+}
+
+#mail {
+    width: 40%;
+    padding: 5px;
+    border-radius: 4px;
+    background: #171717;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+}
+
+.boton {
+    font-family: 'Kanit';
+    width: 50%;
+    background-color: white;
+    border: none;
+    padding: 12px;
+    color: #171717;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/*FOOTER*/
+
+footer{background-color: #333; text-align: center;}
+
+footer .copyright{
+    color: #fff;
 }
